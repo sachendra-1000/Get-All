@@ -1,6 +1,5 @@
 "use client"
 import Link from "next/link";
-import logo from "../images/logo.png";
 import Image from "next/image";
 import UserButton from "../components/user-button";
 import { SessionProvider } from "next-auth/react"
@@ -12,11 +11,20 @@ export default function NavigationBar() {
         <div id="upperNavigationBar">
           <div className="logoAndSearch">
             <div id="logo">
-              <Image
-                style={{ margin: 0, padding: 0 }}
-                src={logo}
-                alt="logoImage"
-              />
+              <div style={{ 
+                width: '120px', 
+                height: '40px', 
+                backgroundColor: '#43ad67', 
+                display: 'flex', 
+                alignItems: 'center', 
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: 'white',
+                fontWeight: 'bold',
+                fontSize: '18px'
+              }}>
+                Get-All
+              </div>
             </div>
             <div id="searchBar">
               <input

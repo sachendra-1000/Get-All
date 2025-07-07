@@ -1,20 +1,5 @@
 "use client";
 import Image from "next/image";
-import laptop from "./images/laptop.png";
-import smartphones from "./images/smartphones.png";
-import cameras from "./images/cameras.png";
-import headphone from "./images/headphone.png";
-import tablets from "./images/tablets.png";
-import smartwatches from "./images/smartwatches.png";
-import apple from "./images/apple.png";
-import hp from "./images/hp.png";
-import dell from "./images/dell.png";
-import lenevo from "./images/lenevo.png";
-import samsung from "./images/samsung.png";
-import heroImage1 from "./images/herosectionImage1.png";
-import newArrivalsImageMouse from "./images/newArrivalsImageMouse.png";
-import newArrivalsImageHeadset from "./images/newArrivalsImageHeadset.png";
-import logo from "./images/logo.png";
 import Link from "next/link";
 
 export default function Home() {
@@ -41,7 +26,19 @@ export default function Home() {
               </Link>
             </div>
             <div className="hero-image">
-              <Image src={heroImage1} alt="Dell Laptop" />
+              <div style={{
+                width: '400px',
+                height: '300px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontSize: '16px'
+              }}>
+                Dell Laptop Image
+              </div>
             </div>
           </div>
           <button className="nav-button right">
@@ -57,7 +54,19 @@ export default function Home() {
         <div className="products">
           <Link href="/products">
             <div className="product-card">
-              <Image src={newArrivalsImageMouse} alt="Mouse" />
+              <div style={{
+                width: '200px',
+                height: '150px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                marginBottom: '10px'
+              }}>
+                Mouse
+              </div>
               <h3>Mouse</h3>
               <p className="rating">
                 ★★★★★ <span>(3 reviews)</span>
@@ -67,7 +76,19 @@ export default function Home() {
           </Link>
           <Link href="/products">
             <div className="product-card">
-              <Image src={laptop} alt="Laptop" />
+              <div style={{
+                width: '200px',
+                height: '150px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                marginBottom: '10px'
+              }}>
+                Laptop
+              </div>
               <h3>Laptop</h3>
               <p className="rating">
                 ★★★★★ <span>(10 reviews)</span>
@@ -78,7 +99,19 @@ export default function Home() {
 
           <Link href="/products">
             <div className="product-card">
-              <Image src={headphone} alt="Headphones" />
+              <div style={{
+                width: '200px',
+                height: '150px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                marginBottom: '10px'
+              }}>
+                Headphones
+              </div>
               <h3>Headphones</h3>
               <p className="rating">
                 ★★★★★ <span>(15 reviews)</span>
@@ -89,7 +122,19 @@ export default function Home() {
 
           <Link href="/products">
             <div className="product-card">
-              <Image src={newArrivalsImageHeadset} alt="Headset" />
+              <div style={{
+                width: '200px',
+                height: '150px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                marginBottom: '10px'
+              }}>
+                Headset
+              </div>
               <h3>Headset</h3>
               <p className="rating">
                 ★★★★★ <span>(25 reviews)</span>
@@ -106,7 +151,18 @@ export default function Home() {
             <Link href="/products">
               <div id="card">
                 <div id="image-background">
-                  <Image src={laptop} alt="laptop" />
+                  <div style={{
+                    width: '100px',
+                    height: '80px',
+                    backgroundColor: '#f0f0f0',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '8px',
+                    color: '#666'
+                  }}>
+                    💻
+                  </div>
                 </div>
                 <h3>Laptop</h3>
               </div>
@@ -114,7 +170,18 @@ export default function Home() {
             <Link href="/products">
             <div id="card">
               <div id="image-background">
-                <Image src={smartphones} alt="laptop" />
+                <div style={{
+                  width: '100px',
+                  height: '80px',
+                  backgroundColor: '#f0f0f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: '8px',
+                  color: '#666'
+                }}>
+                  📱
+                </div>
               </div>
               <h3>Smart Phones</h3>
             </div>
@@ -122,7 +189,18 @@ export default function Home() {
             <Link href="/products">
             <div id="card">
               <div id="image-background">
-                <Image src={cameras} alt="laptop" />
+                <div style={{
+                  width: '100px',
+                  height: '80px',
+                  backgroundColor: '#f0f0f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: '8px',
+                  color: '#666'
+                }}>
+                  📷
+                </div>
               </div>
               <h3>Cameras</h3>
             </div>
@@ -130,7 +208,18 @@ export default function Home() {
             <Link href="/products">
             <div id="card">
               <div id="image-background">
-                <Image src={headphone} alt="laptop" />
+                <div style={{
+                  width: '100px',
+                  height: '80px',
+                  backgroundColor: '#f0f0f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: '8px',
+                  color: '#666'
+                }}>
+                  🎧
+                </div>
               </div>
               <h3>Headphones</h3>
             </div>
@@ -138,7 +227,18 @@ export default function Home() {
             <Link href="/products">
             <div id="card">
               <div id="image-background">
-                <Image src={tablets} alt="laptop" />
+                <div style={{
+                  width: '100px',
+                  height: '80px',
+                  backgroundColor: '#f0f0f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: '8px',
+                  color: '#666'
+                }}>
+                  📱
+                </div>
               </div>
               <h3>Tablets</h3>
             </div>
@@ -146,7 +246,18 @@ export default function Home() {
             <Link href="/products">
             <div id="card">
               <div id="image-background">
-                <Image src={smartwatches} alt="laptop" />
+                <div style={{
+                  width: '100px',
+                  height: '80px',
+                  backgroundColor: '#f0f0f0',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  borderRadius: '8px',
+                  color: '#666'
+                }}>
+                  ⌚
+                </div>
               </div>
               <h3>Smart Watches</h3>
             </div>
@@ -164,7 +275,18 @@ export default function Home() {
           </Link>
         </div>
         <div className="promo-img-code">
-          <Image src={smartphones} alt="smartphone" />
+          <div style={{
+            width: '300px',
+            height: '200px',
+            backgroundColor: '#f0f0f0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderRadius: '8px',
+            color: '#666'
+          }}>
+            Smartphone Image
+          </div>
 
           <div className="promo-code">
             <p>
@@ -185,7 +307,18 @@ export default function Home() {
               Up to 30% Off
             </Link>
           </div>
-          <Image src={laptop} alt="Laptop" />
+          <div style={{
+            width: '200px',
+            height: '150px',
+            backgroundColor: '#f0f0f0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderRadius: '8px',
+            color: '#666'
+          }}>
+            Laptop
+          </div>
         </div>
         <div className="offer-box">
           <div className="offer-text">
@@ -198,7 +331,18 @@ export default function Home() {
               Up to 30% Off
             </Link>
           </div>
-          <Image src={tablets} alt="Monitor" />
+          <div style={{
+            width: '200px',
+            height: '150px',
+            backgroundColor: '#f0f0f0',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderRadius: '8px',
+            color: '#666'
+          }}>
+            Monitor
+          </div>
         </div>
       </section>
       <section id="section-featured-brands">
@@ -206,19 +350,79 @@ export default function Home() {
           <h1>Featured Brands</h1>
           <div id="featured-brands-card-container">
             <div id="featured-brands-card">
-              <Image src={apple} alt="apple" />
+              <div style={{
+                width: '120px',
+                height: '80px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontWeight: 'bold'
+              }}>
+                Apple
+              </div>
             </div>
             <div id="featured-brands-card">
-              <Image src={hp} alt="apple" />
+              <div style={{
+                width: '120px',
+                height: '80px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontWeight: 'bold'
+              }}>
+                HP
+              </div>
             </div>
             <div id="featured-brands-card">
-              <Image src={dell} alt="apple" />
+              <div style={{
+                width: '120px',
+                height: '80px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontWeight: 'bold'
+              }}>
+                Dell
+              </div>
             </div>
             <div id="featured-brands-card">
-              <Image src={lenevo} alt="apple" />
+              <div style={{
+                width: '120px',
+                height: '80px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontWeight: 'bold'
+              }}>
+                Lenovo
+              </div>
             </div>
             <div id="featured-brands-card">
-              <Image src={samsung} alt="apple" />
+              <div style={{
+                width: '120px',
+                height: '80px',
+                backgroundColor: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                borderRadius: '8px',
+                color: '#666',
+                fontWeight: 'bold'
+              }}>
+                Samsung
+              </div>
             </div>
           </div>
         </div>
@@ -234,7 +438,20 @@ export default function Home() {
       <footer className="footer">
         <div className="footer-logo">
           <div id="logo">
-            <Image src={logo} alt="logo" />
+            <div style={{ 
+              width: '120px', 
+              height: '40px', 
+              backgroundColor: '#43ad67', 
+              display: 'flex', 
+              alignItems: 'center', 
+              justifyContent: 'center',
+              borderRadius: '8px',
+              color: 'white',
+              fontWeight: 'bold',
+              fontSize: '18px'
+            }}>
+              Get-All
+            </div>
           </div>
         </div>
         <div className="footer-links">

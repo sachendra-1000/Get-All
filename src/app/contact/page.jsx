@@ -1,6 +1,3 @@
-
-import email from "../images/email.jpg";
-
 export default function Contact() {
     return (
         <>
